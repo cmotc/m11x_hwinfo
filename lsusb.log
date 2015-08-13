@@ -11,9 +11,9 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0002 2.0 root hub
   bcdDevice            3.16
-  iManufacturer           3 
-  iProduct                2 
-  iSerial                 1 
+  iManufacturer           3 Linux 3.16.0-4-amd64 ehci_hcd
+  iProduct                2 EHCI Host Controller
+  iSerial                 1 0000:00:1d.7
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -46,6 +46,26 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0004  1x 4 bytes
         bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             6
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x40
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+   Port 3: 0000.0100 power
+   Port 4: 0000.0100 power
+   Port 5: 0000.0100 power
+   Port 6: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
 
 Bus 005 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Device Descriptor:
@@ -59,9 +79,9 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0001 1.1 root hub
   bcdDevice            3.16
-  iManufacturer           3 
-  iProduct                2 
-  iSerial                 1 
+  iManufacturer           3 Linux 3.16.0-4-amd64 uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.2
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -94,6 +114,22 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0002  1x 2 bytes
         bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x04
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered
 
 Bus 004 Device 002: ID 187c:0514 Alienware Corporation 
 Device Descriptor:
@@ -107,9 +143,9 @@ Device Descriptor:
   idVendor           0x187c Alienware Corporation
   idProduct          0x0514 
   bcdDevice            0.00
-  iManufacturer           1 
-  iProduct                2 
-  iSerial                 3 
+  iManufacturer           1 Alienware Gaming
+  iProduct                2 Phantom
+  iSerial                 3 2.0.1
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -151,6 +187,8 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x000a  1x 10 bytes
         bInterval              10
+Device Status:     0x0000
+  (Bus Powered)
 
 Bus 004 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Device Descriptor:
@@ -164,9 +202,9 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0001 1.1 root hub
   bcdDevice            3.16
-  iManufacturer           3 
-  iProduct                2 
-  iSerial                 1 
+  iManufacturer           3 Linux 3.16.0-4-amd64 uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.1
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -199,8 +237,24 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0002  1x 2 bytes
         bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0103 power enable connect
+Device Status:     0x0001
+  Self Powered
 
-Bus 003 Device 002: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+Bus 003 Device 003: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -213,7 +267,7 @@ Device Descriptor:
   idProduct          0x0001 Bluetooth Dongle (HCI mode)
   bcdDevice           88.91
   iManufacturer           0 
-  iProduct                2 
+  iProduct                2 CSR8510 A10
   iSerial                 0 
   bNumConfigurations      1
   Configuration Descriptor:
@@ -447,6 +501,8 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0031  1x 49 bytes
         bInterval               1
+Device Status:     0x0001
+  Self Powered
 
 Bus 003 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Device Descriptor:
@@ -460,9 +516,9 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0001 1.1 root hub
   bcdDevice            3.16
-  iManufacturer           3 
-  iProduct                2 
-  iSerial                 1 
+  iManufacturer           3 Linux 3.16.0-4-amd64 uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1d.0
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -495,6 +551,22 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0002  1x 2 bytes
         bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x00
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0103 power enable connect
+Device Status:     0x0001
+  Self Powered
 
 Bus 001 Device 002: ID 0c45:6424 Microdia 
 Device Descriptor:
@@ -508,8 +580,8 @@ Device Descriptor:
   idVendor           0x0c45 Microdia
   idProduct          0x6424 
   bcdDevice           9b.25
-  iManufacturer           2 
-  iProduct                1 
+  iManufacturer           2 CN0GF9H77248712C0148A00
+  iProduct                1 Laptop_Integrated_Webcam_1.3M
   iSerial                 0 
   bNumConfigurations      1
   Configuration Descriptor:
@@ -531,7 +603,7 @@ Device Descriptor:
       bFunctionClass         14 Video
       bFunctionSubClass       3 Video Interface Collection
       bFunctionProtocol       0 
-      iFunction               4 
+      iFunction               4 Integrated Webcam
     Interface Descriptor:
       bLength                 9
       bDescriptorType         4
@@ -541,7 +613,7 @@ Device Descriptor:
       bInterfaceClass        14 Video
       bInterfaceSubClass      1 Video Control
       bInterfaceProtocol      0 
-      iInterface              4 
+      iInterface              4 Integrated Webcam
       VideoControl Interface Descriptor:
         bLength                13
         bDescriptorType        36
@@ -946,6 +1018,18 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x1400  3x 1024 bytes
         bInterval               1
+Device Qualifier (for other device speed):
+  bLength                10
+  bDescriptorType         6
+  bcdUSB               2.00
+  bDeviceClass          239 Miscellaneous Device
+  bDeviceSubClass         2 ?
+  bDeviceProtocol         1 Interface Association
+  bMaxPacketSize0        64
+  bNumConfigurations      1
+Device Status:     0x0002
+  (Bus Powered)
+  Remote Wakeup Enabled
 
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Device Descriptor:
@@ -959,9 +1043,9 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0002 2.0 root hub
   bcdDevice            3.16
-  iManufacturer           3 
-  iProduct                2 
-  iSerial                 1 
+  iManufacturer           3 Linux 3.16.0-4-amd64 ehci_hcd
+  iProduct                2 EHCI Host Controller
+  iSerial                 1 0000:00:1a.7
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -994,6 +1078,22 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0004  1x 4 bytes
         bInterval              12
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood       10 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x06
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0503 highspeed power enable connect
+Device Status:     0x0001
+  Self Powered
 
 Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
 Device Descriptor:
@@ -1007,9 +1107,9 @@ Device Descriptor:
   idVendor           0x1d6b Linux Foundation
   idProduct          0x0001 1.1 root hub
   bcdDevice            3.16
-  iManufacturer           3 
-  iProduct                2 
-  iSerial                 1 
+  iManufacturer           3 Linux 3.16.0-4-amd64 uhci_hcd
+  iProduct                2 UHCI Host Controller
+  iSerial                 1 0000:00:1a.0
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -1042,3 +1142,19 @@ Device Descriptor:
           Usage Type               Data
         wMaxPacketSize     0x0002  1x 2 bytes
         bInterval             255
+Hub Descriptor:
+  bLength               9
+  bDescriptorType      41
+  nNbrPorts             2
+  wHubCharacteristic 0x000a
+    No power switching (usb 1.0)
+    Per-port overcurrent protection
+  bPwrOn2PwrGood        1 * 2 milli seconds
+  bHubContrCurrent      0 milli Ampere
+  DeviceRemovable    0x06
+  PortPwrCtrlMask    0xff
+ Hub Port Status:
+   Port 1: 0000.0100 power
+   Port 2: 0000.0100 power
+Device Status:     0x0001
+  Self Powered

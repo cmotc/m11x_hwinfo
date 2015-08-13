@@ -955,3 +955,449 @@ tlb_flushall_shift: -1
 [ 2205.536781] INPUT-rejected: IN=wlan0 OUT= MAC=ff:ff:ff:ff:ff:ff:00:25:22:d3:ee:9a:08:00 SRC=192.168.0.101 DST=192.168.0.255 LEN=229 TOS=0x00 PREC=0x00 TTL=128 ID=20067 PROTO=UDP SPT=138 DPT=138 LEN=209 
 [ 2234.515663] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:cc:20:e2:bd:ac:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 
 [ 2242.094839] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:00:25:22:d3:ee:9a:08:00 SRC=192.168.0.101 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=21244 PROTO=2 
+[ 2359.546414] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:cc:20:e2:bd:ac:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 
+[ 2363.131451] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:00:25:22:d3:ee:9a:08:00 SRC=192.168.0.101 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=27407 PROTO=2 
+[ 2484.577263] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:cc:20:e2:bd:ac:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 
+[ 2489.698198] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:00:25:22:d3:ee:9a:08:00 SRC=192.168.0.101 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=4938 PROTO=2 
+[ 2609.505900] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:cc:20:e2:bd:ac:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 
+[ 2617.186604] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:00:25:22:d3:ee:9a:08:00 SRC=192.168.0.101 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=14004 PROTO=2 
+[ 2661.064650] pci_bus 0000:01: Allocating resources
+[ 2661.064709] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.064733] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.064803] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.064809] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.064833] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.064869] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.064908] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.064917] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.064923] i915 0000:00:02.0: using default PCI settings
+[ 2661.064948] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.064953] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.064992] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.064997] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.065030] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.065040] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.065087] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.065097] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.065130] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.065140] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.065190] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.065230] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.065239] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.065244] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.065272] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.065277] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.065308] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.065313] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.065349] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.065355] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.065395] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.065400] pci 0000:00:1e.0: using default PCI settings
+[ 2661.065446] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.065451] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.065484] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.065489] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.065517] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.065522] pci 0000:00:1f.3: using default PCI settings
+[ 2661.065771] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.065783] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.065865] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.065871] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.065905] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.065939] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.065974] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.065983] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.065988] i915 0000:00:02.0: using default PCI settings
+[ 2661.066016] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.066021] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.066062] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.066067] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.066099] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.066108] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.066152] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.066161] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.066192] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.066202] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.066239] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.066273] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.066282] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.066287] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.066321] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.066326] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.066354] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.066359] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.066391] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.066397] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.066432] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.066437] pci 0000:00:1e.0: using default PCI settings
+[ 2661.066484] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.066489] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.066521] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.066526] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.066556] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.066561] pci 0000:00:1f.3: using default PCI settings
+[ 2661.066857] pci_bus 0000:26: Allocating resources
+[ 2661.066911] pci 0000:00:1e.0: bridge window [io  0x1000-0x0fff] to [bus 26] add_size 1000
+[ 2661.066920] pci 0000:00:1e.0: bridge window [mem 0x00100000-0x000fffff 64bit pref] to [bus 26] add_size 200000
+[ 2661.066928] pci 0000:00:1e.0: bridge window [mem 0x00100000-0x000fffff] to [bus 26] add_size 200000
+[ 2661.066936] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.066949] pci 0000:00:1e.0: res[14]=[mem 0x00100000-0x000fffff] get_res_add_size add_size 200000
+[ 2661.066957] pci 0000:00:1e.0: res[15]=[mem 0x00100000-0x000fffff 64bit pref] get_res_add_size add_size 200000
+[ 2661.066963] pci 0000:00:1e.0: res[13]=[io  0x1000-0x0fff] get_res_add_size add_size 1000
+[ 2661.066978] pci 0000:00:1e.0: BAR 14: assigned [mem 0xa0700000-0xa08fffff]
+[ 2661.066994] pci 0000:00:1e.0: BAR 15: assigned [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.067005] pci 0000:00:1e.0: BAR 13: assigned [io  0x6000-0x6fff]
+[ 2661.067016] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.067027] pci 0000:00:1e.0:   bridge window [io  0x6000-0x6fff]
+[ 2661.067048] pci 0000:00:1e.0:   bridge window [mem 0xa0700000-0xa08fffff]
+[ 2661.067063] pci 0000:00:1e.0:   bridge window [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.067094] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.067099] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.067128] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.067160] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.067192] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.067201] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.067206] i915 0000:00:02.0: using default PCI settings
+[ 2661.067231] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.067236] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.067280] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.067285] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.067314] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.067323] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.067368] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.067377] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.067404] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.067413] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.067452] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.067484] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.067493] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.067498] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.067527] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.067532] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.067562] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.067567] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.067600] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.067605] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.067635] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.067640] pci 0000:00:1e.0: using default PCI settings
+[ 2661.067685] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.067691] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.067721] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.067726] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.067755] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.067760] pci 0000:00:1f.3: using default PCI settings
+[ 2661.092348] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.092365] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.092375] pci 0000:00:1e.0:   bridge window [io  0x6000-0x6fff]
+[ 2661.092391] pci 0000:00:1e.0:   bridge window [mem 0xa0700000-0xa08fffff]
+[ 2661.092403] pci 0000:00:1e.0:   bridge window [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.092430] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.092434] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.092454] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.092480] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.092501] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.092507] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.092510] i915 0000:00:02.0: using default PCI settings
+[ 2661.092530] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.092533] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.092557] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.092561] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.092588] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.092594] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.092633] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.092639] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.092662] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.092668] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.092694] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.092721] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.092727] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.092730] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.092753] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.092756] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.092776] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.092779] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.092801] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.092804] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.092825] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.092829] pci 0000:00:1e.0: using default PCI settings
+[ 2661.092862] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.092865] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.092888] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.092891] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.092919] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.092922] pci 0000:00:1f.3: using default PCI settings
+[ 2661.093060] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.093067] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.093075] pci 0000:00:1e.0:   bridge window [io  0x6000-0x6fff]
+[ 2661.093088] pci 0000:00:1e.0:   bridge window [mem 0xa0700000-0xa08fffff]
+[ 2661.093104] pci 0000:00:1e.0:   bridge window [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.093127] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.093130] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.093148] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.093169] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.093193] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.093199] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.093202] i915 0000:00:02.0: using default PCI settings
+[ 2661.093219] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.093222] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.093243] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.093246] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.093268] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.093274] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.093312] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.093318] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.093339] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.093344] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.093369] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.093394] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.093400] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.093403] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.093426] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.093429] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.093450] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.093453] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.093477] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.093480] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.093504] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.093507] pci 0000:00:1e.0: using default PCI settings
+[ 2661.093541] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.093545] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.093567] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.093571] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.093592] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.093595] pci 0000:00:1f.3: using default PCI settings
+[ 2661.093727] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.093734] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.093741] pci 0000:00:1e.0:   bridge window [io  0x6000-0x6fff]
+[ 2661.093759] pci 0000:00:1e.0:   bridge window [mem 0xa0700000-0xa08fffff]
+[ 2661.093771] pci 0000:00:1e.0:   bridge window [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.093795] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.093798] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.093816] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.093841] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.093861] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.093867] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.093870] i915 0000:00:02.0: using default PCI settings
+[ 2661.093892] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.093895] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.093920] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.093923] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.093945] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.093951] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.093990] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.093995] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.094015] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.094021] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.094047] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.094074] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.094104] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.094108] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.094132] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.094136] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.094158] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.094161] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.094181] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.094184] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.094207] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.094210] pci 0000:00:1e.0: using default PCI settings
+[ 2661.094245] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.094248] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.094271] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.094274] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.094294] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.094297] pci 0000:00:1f.3: using default PCI settings
+[ 2661.094346] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.094353] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.094361] pci 0000:00:1e.0:   bridge window [io  0x6000-0x6fff]
+[ 2661.094376] pci 0000:00:1e.0:   bridge window [mem 0xa0700000-0xa08fffff]
+[ 2661.094387] pci 0000:00:1e.0:   bridge window [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.094409] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.094413] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.094434] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.094455] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.094476] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.094482] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.094485] i915 0000:00:02.0: using default PCI settings
+[ 2661.094504] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.094507] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.094527] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.094531] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.094552] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.094558] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.094596] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.094602] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.094624] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.094630] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.094654] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.094679] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.094684] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.094687] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.094712] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.094715] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.094738] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.094741] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.094763] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.094766] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.094789] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.094792] pci 0000:00:1e.0: using default PCI settings
+[ 2661.094827] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.094830] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.094854] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.094857] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.094880] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.094883] pci 0000:00:1f.3: using default PCI settings
+[ 2661.095187] pci_bus 0000:02: Allocating resources
+[ 2661.095288] pci_bus 0000:08: Allocating resources
+[ 2661.095349] pci_bus 0000:1a: Allocating resources
+[ 2661.095398] i915 0000:00:02.0: BAR 6: [??? 0x00000000 flags 0x2] has bogus alignment
+[ 2661.095405] pci 0000:00:1e.0: PCI bridge to [bus 26]
+[ 2661.095412] pci 0000:00:1e.0:   bridge window [io  0x6000-0x6fff]
+[ 2661.095428] pci 0000:00:1e.0:   bridge window [mem 0xa0700000-0xa08fffff]
+[ 2661.095439] pci 0000:00:1e.0:   bridge window [mem 0xa0900000-0xa0afffff 64bit pref]
+[ 2661.095464] agpgart-intel 0000:00:00.0: no hotplug settings from platform
+[ 2661.095467] agpgart-intel 0000:00:00.0: using default PCI settings
+[ 2661.095486] pcieport 0000:00:01.0: no hotplug settings from platform
+[ 2661.095508] nouveau 0000:01:00.0: no hotplug settings from platform
+[ 2661.095528] snd_hda_intel 0000:01:00.1: no hotplug settings from platform
+[ 2661.095534] i915 0000:00:02.0: no hotplug settings from platform
+[ 2661.095537] i915 0000:00:02.0: using default PCI settings
+[ 2661.095555] uhci_hcd 0000:00:1a.0: no hotplug settings from platform
+[ 2661.095558] uhci_hcd 0000:00:1a.0: using default PCI settings
+[ 2661.095578] ehci-pci 0000:00:1a.7: no hotplug settings from platform
+[ 2661.095582] ehci-pci 0000:00:1a.7: using default PCI settings
+[ 2661.095603] snd_hda_intel 0000:00:1b.0: no hotplug settings from platform
+[ 2661.095609] pcieport 0000:00:1c.0: no hotplug settings from platform
+[ 2661.095646] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2661.095652] pcieport 0000:00:1c.1: no hotplug settings from platform
+[ 2661.095672] ath9k 0000:08:00.0: no hotplug settings from platform
+[ 2661.095678] pcieport 0000:00:1c.4: no hotplug settings from platform
+[ 2661.095702] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2661.095727] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2661.095733] uhci_hcd 0000:00:1d.0: no hotplug settings from platform
+[ 2661.095736] uhci_hcd 0000:00:1d.0: using default PCI settings
+[ 2661.095758] uhci_hcd 0000:00:1d.1: no hotplug settings from platform
+[ 2661.095761] uhci_hcd 0000:00:1d.1: using default PCI settings
+[ 2661.095784] uhci_hcd 0000:00:1d.2: no hotplug settings from platform
+[ 2661.095787] uhci_hcd 0000:00:1d.2: using default PCI settings
+[ 2661.095810] ehci-pci 0000:00:1d.7: no hotplug settings from platform
+[ 2661.095813] ehci-pci 0000:00:1d.7: using default PCI settings
+[ 2661.095834] pci 0000:00:1e.0: no hotplug settings from platform
+[ 2661.095838] pci 0000:00:1e.0: using default PCI settings
+[ 2661.095872] lpc_ich 0000:00:1f.0: no hotplug settings from platform
+[ 2661.095875] lpc_ich 0000:00:1f.0: using default PCI settings
+[ 2661.095899] ahci 0000:00:1f.2: no hotplug settings from platform
+[ 2661.095902] ahci 0000:00:1f.2: using default PCI settings
+[ 2661.095924] pci 0000:00:1f.3: no hotplug settings from platform
+[ 2661.095927] pci 0000:00:1f.3: using default PCI settings
+[ 2661.192123] usb 3-2: USB disconnect, device number 2
+[ 2661.211027] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[ 2661.355111] wlan0: deauthenticating from 14:cc:20:e2:bd:ac by local choice (Reason: 3=DEAUTH_LEAVING)
+[ 2661.380768] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[ 2661.382022] cfg80211: Calling CRDA to update world regulatory domain
+[ 2661.399342] cfg80211: World regulatory domain updated:
+[ 2661.399349] cfg80211:  DFS Master region: unset
+[ 2661.399352] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[ 2661.399356] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[ 2661.399360] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[ 2661.399364] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[ 2661.399368] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[ 2661.399373] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[ 2661.399377] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+[ 2661.399380] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[ 2661.399384] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[ 2661.599270] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[ 2661.996140] usb 3-2: new full-speed USB device number 3 using uhci_hcd
+[ 2662.163330] usb 3-2: New USB device found, idVendor=0a12, idProduct=0001
+[ 2662.163342] usb 3-2: New USB device strings: Mfr=0, Product=2, SerialNumber=0
+[ 2662.163348] usb 3-2: Product: CSR8510 A10
+[ 2663.668355] PM: Syncing filesystems ... done.
+[ 2663.743151] PM: Preparing system for mem sleep
+[ 2664.625274] Freezing user space processes ... (elapsed 0.002 seconds) done.
+[ 2664.627660] Freezing remaining freezable tasks ... (elapsed 0.001 seconds) done.
+[ 2664.629096] PM: Entering mem sleep
+[ 2664.629180] Suspending console(s) (use no_console_suspend to debug)
+[ 2664.630512] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[ 2664.632498] sd 0:0:0:0: [sda] Stopping disk
+[ 2664.699336] nouveau  [     DRM] suspending console...
+[ 2664.699343] nouveau  [     DRM] suspending display...
+[ 2664.699446] nouveau  [     DRM] evicting buffers...
+[ 2664.750480] nouveau  [     DRM] waiting for kernel channels to go idle...
+[ 2664.750518] nouveau  [     DRM] suspending client object trees...
+[ 2664.751572] nouveau  [     DRM] suspending kernel object tree...
+[ 2667.328357] PM: suspend of devices complete after 2698.432 msecs
+[ 2667.344254] PM: late suspend of devices complete after 15.886 msecs
+[ 2667.346433] ehci-pci 0000:00:1d.7: System wakeup enabled by ACPI
+[ 2667.346488] uhci_hcd 0000:00:1d.2: System wakeup enabled by ACPI
+[ 2667.346800] uhci_hcd 0000:00:1d.1: System wakeup enabled by ACPI
+[ 2667.347079] uhci_hcd 0000:00:1d.0: System wakeup enabled by ACPI
+[ 2667.347097] uhci_hcd 0000:00:1a.0: System wakeup enabled by ACPI
+[ 2667.360280] PM: noirq suspend of devices complete after 16.019 msecs
+[ 2667.361412] ACPI: Preparing to enter system sleep state S3
+[ 2667.363664] PM: Saving platform NVS memory
+[ 2667.364621] Disabling non-boot CPUs ...
+[ 2667.366141] kvm: disabling virtualization on CPU1
+[ 2667.468029] smpboot: CPU 1 is now offline
+[ 2667.468578] ACPI: Low-level resume complete
+[ 2667.468578] PM: Restoring platform NVS memory
+[ 2667.468578] Enabling non-boot CPUs ...
+[ 2667.468578] x86: Booting SMP configuration:
+[ 2667.468578] smpboot: Booting Node 0 Processor 1 APIC 0x1
+[ 2667.366149] kvm: enabling virtualization on CPU1
+[ 2667.480748] CPU1 is up
+[ 2667.483882] ACPI: Waking up from system sleep state S3
+[ 2667.484757] uhci_hcd 0000:00:1a.0: System wakeup disabled by ACPI
+[ 2667.485095] uhci_hcd 0000:00:1d.0: System wakeup disabled by ACPI
+[ 2667.485194] uhci_hcd 0000:00:1d.1: System wakeup disabled by ACPI
+[ 2667.485200] uhci_hcd 0000:00:1d.2: System wakeup disabled by ACPI
+[ 2667.501814] ehci-pci 0000:00:1d.7: System wakeup disabled by ACPI
+[ 2667.501991] PM: noirq resume of devices complete after 17.410 msecs
+[ 2667.502341] PM: early resume of devices complete after 0.310 msecs
+[ 2667.504181] usb usb2: root hub lost power or was reset
+[ 2667.504429] snd_hda_intel 0000:00:1b.0: irq 45 for MSI/MSI-X
+[ 2667.504623] usb usb3: root hub lost power or was reset
+[ 2667.504751] usb usb4: root hub lost power or was reset
+[ 2667.504878] usb usb5: root hub lost power or was reset
+[ 2667.505144] nouveau  [     DRM] re-enabling device...
+[ 2667.505225] nouveau  [     DRM] resuming kernel object tree...
+[ 2667.505250] nouveau  [   VBIOS][0000:01:00.0] running init tables
+[ 2667.651105] ath: phy0: ASPM enabled: 0x43
+[ 2667.652142] sd 0:0:0:0: [sda] Starting disk
+[ 2667.728184] nouveau  [    VOLT][0000:01:00.0] GPU voltage: 800000uv
+[ 2667.728191] nouveau  [  PTHERM][0000:01:00.0] fan management: automatic
+[ 2667.728247] nouveau  [     CLK][0000:01:00.0] --: core 405 MHz shader 810 MHz memory 324 MHz
+[ 2667.729328] nouveau  [     DRM] resuming client object trees...
+[ 2667.729696] nouveau  [     DRM] resuming display...
+[ 2667.729956] nouveau  [     DRM] resuming console...
+[ 2667.864126] usb 1-2: reset high-speed USB device number 2 using ehci-pci
+[ 2667.984059] usb 4-2: reset full-speed USB device number 2 using uhci_hcd
+[ 2667.984085] usb 3-2: reset full-speed USB device number 3 using uhci_hcd
+[ 2668.148036] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[ 2668.148217] ata1.00: supports DRM functions and may not be fully accessible
+[ 2668.148303] ata1.00: failed to get NCQ Send/Recv Log Emask 0x1
+[ 2668.148484] ata1.00: supports DRM functions and may not be fully accessible
+[ 2668.148542] ata1.00: failed to get NCQ Send/Recv Log Emask 0x1
+[ 2668.148547] ata1.00: configured for UDMA/133
+[ 2668.151761] PM: resume of devices complete after 649.415 msecs
+[ 2668.156574] PM: Finishing wakeup.
+[ 2668.156577] Restarting tasks ... 
+[ 2668.156617] atl1c 0000:02:00.0: no hotplug settings from platform
+[ 2668.165347] sdhci-pci 0000:1a:00.0: no hotplug settings from platform
+[ 2668.165368] jmb38x_ms 0000:1a:00.3: no hotplug settings from platform
+[ 2668.180158] done.
+[ 2668.445714] video LNXVIDEO:00: Restoring backlight state
+[ 2668.446025] video LNXVIDEO:01: Restoring backlight state
+[ 2668.495514] atl1c 0000:02:00.0: irq 48 for MSI/MSI-X
+[ 2668.510336] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[ 2668.516302] psmouse serio1: synaptics: queried max coordinates: x [..5590], y [..4582]
+[ 2668.545190] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[ 2669.543649] wlan0: authenticate with 14:cc:20:e2:bd:ac
+[ 2669.550393] wlan0: send auth to 14:cc:20:e2:bd:ac (try 1/3)
+[ 2669.553015] wlan0: authenticated
+[ 2669.556065] wlan0: associate with 14:cc:20:e2:bd:ac (try 1/3)
+[ 2669.561402] wlan0: RX AssocResp from 14:cc:20:e2:bd:ac (capab=0x431 status=0 aid=3)
+[ 2669.561478] wlan0: associated
+[ 2669.561524] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[ 2717.443944] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:01:14:cc:20:e2:bd:ac:08:00 SRC=192.168.0.1 DST=224.0.0.1 LEN=32 TOS=0x00 PREC=0xC0 TTL=1 ID=0 DF PROTO=2 
+[ 2724.804381] INPUT-rejected: IN=wlan0 OUT= MAC=01:00:5e:00:00:fb:00:25:22:d3:ee:9a:08:00 SRC=192.168.0.101 DST=224.0.0.251 LEN=32 TOS=0x00 PREC=0x00 TTL=1 ID=16156 PROTO=2 
+[ 2765.404032] atl1c 0000:02:00.0: vpd r/w failed.  This is likely a firmware bug on this device.  Contact the card vendor for a firmware update
+[ 2812.324035] atl1c 0000:02:00.0: vpd r/w failed.  This is likely a firmware bug on this device.  Contact the card vendor for a firmware update

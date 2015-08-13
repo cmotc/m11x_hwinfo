@@ -57,6 +57,7 @@
       3000-307f : atl1c
   4000-4fff : PCI Bus 0000:08
   5000-5fff : PCI Bus 0000:1a
+  6000-6fff : PCI Bus 0000:26
   fe00-fe00 : pnp 00:01
   ff2c-ff7f : pnp 00:01
   ffff-ffff : pnp 00:01
