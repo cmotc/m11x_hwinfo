@@ -1,0 +1,343 @@
+flashrom v0.9.7-r1782 on Linux 3.16.0-4-amd64 (x86_64)
+flashrom is free software, get the source code at http://www.flashrom.org
+
+flashrom was built with libpci 3.2.1, GCC 4.8.2, little endian
+Command line (5 args): flashrom -V -p internal:laptop=force_I_want_a_brick -r rom.bin
+Calibrating delay loop... OS timer resolution is 2 usecs, 1296M loops per second, 10 myus = 11 us, 100 myus = 101 us, 1000 myus = 1001 us, 10000 myus = 10051 us, 8 myus = 9 us, OK.
+Initializing internal programmer
+No coreboot table found.
+Using Internal DMI decoder.
+DMI string chassis-type: "Portable"
+Laptop detected via DMI.
+DMI string system-manufacturer: "Alienware"
+DMI string system-product-name: "M11x"
+DMI string system-version: "A01"
+DMI string baseboard-manufacturer: "Alienware"
+DMI string baseboard-product-name: "0VWGCV"
+DMI string baseboard-version: "A01"
+Found chipset "Intel ICH9M-E" with PCI ID 8086:2917. Enabling flash write... Root Complex Register Block address = 0xfed1c000
+GCS = 0xe80c61: BIOS Interface Lock-Down: enabled, Boot BIOS Straps: 0x3 (LPC)
+Top Swap : not enabled
+
+0xfff80000/0xffb80000 FWH IDSEL: 0x0
+0xfff00000/0xffb00000 FWH IDSEL: 0x0
+0xffe80000/0xffa80000 FWH IDSEL: 0x0
+0xffe00000/0xffa00000 FWH IDSEL: 0x0
+0xffd80000/0xff980000 FWH IDSEL: 0x1
+0xffd00000/0xff900000 FWH IDSEL: 0x1
+0xffc80000/0xff880000 FWH IDSEL: 0x2
+0xffc00000/0xff800000 FWH IDSEL: 0x2
+0xff700000/0xff300000 FWH IDSEL: 0x4
+0xff600000/0xff200000 FWH IDSEL: 0x5
+0xff500000/0xff100000 FWH IDSEL: 0x6
+0xff400000/0xff000000 FWH IDSEL: 0x7
+0xfff80000/0xffb80000 FWH decode enabled
+0xfff00000/0xffb00000 FWH decode enabled
+0xffe80000/0xffa80000 FWH decode enabled
+0xffe00000/0xffa00000 FWH decode enabled
+0xffd80000/0xff980000 FWH decode enabled
+0xffd00000/0xff900000 FWH decode enabled
+0xffc80000/0xff880000 FWH decode enabled
+0xffc00000/0xff800000 FWH decode enabled
+0xff700000/0xff300000 FWH decode enabled
+0xff600000/0xff200000 FWH decode enabled
+0xff500000/0xff100000 FWH decode enabled
+0xff400000/0xff000000 FWH decode enabled
+Maximum FWH chip size: 0x200000 bytesSPI Read Configuration: prefetching disabled, caching enabled, 
+BIOS_CNTL = 0x01: BIOS Lock Enable: disabled, BIOS Write Enable: enabled
+SPIBAR = 0x00007fc24d50d000 + 0x3800
+0x04: 0x2002 (HSFS)
+HSFS: FDONE=0, FCERR=1, AEL=0, BERASE=0, SCIP=0, FDOPSS=1, FDV=0, FLOCKDN=0
+Programming OPCODES... done
+0x90: 0x04 (SSFS)
+SSFS: SCIP=0, FDONE=1, FCERR=0, AEL=0
+0x91: 0x004140 (SSFC)
+SSFC: SCGO=0, ACS=0, SPOP=0, COP=4, DBC=1, SME=0, SCF=0
+0x94: 0x5006     (PREOP)
+0x96: 0x463b     (OPTYPE)
+0x98: 0x05d80302 (OPMENU)
+0x9C: 0xc79f0190 (OPMENU+4)
+0xA0: 0x00000000 (BBAR)
+
+OK.
+The following protocols are supported: FWH, SPI.
+Probing for AMIC A25L05PT, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L05PU, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L10PT, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L10PU, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L20PT, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L20PU, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L40PT, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L40PU, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L80P, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L16PT, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L16PU, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L512, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L010, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L020, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L040, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L080, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L016, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25L032, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25LQ16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25LQ032/A25LQ32A, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for AMIC A25LQ64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF021, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF041A, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF081, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF081A, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF161, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF321, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF321A, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DF641(A), 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25DQ161, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25F512, 64 kB: probe_spi_at25f: id1 0xff, id2 0xff
+Probing for Atmel AT25F512A, 64 kB: probe_spi_at25f: id1 0xff, id2 0xff
+Probing for Atmel AT25F512B, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25F1024(A), 128 kB: probe_spi_at25f: id1 0xff, id2 0xff
+Probing for Atmel AT25F2048, 256 kB: probe_spi_at25f: id1 0xff, id2 0xff
+Probing for Atmel AT25F4096, 512 kB: probe_spi_at25f: id1 0xff, id2 0xff
+Probing for Atmel AT25FS010, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT25FS040, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT26DF041, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT26DF081A, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT26DF161, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT26DF161A, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT26F004, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45CS1282, 16896 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB011D, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB021D, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB041D, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB081D, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB161D, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB321C, 4224 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB321D, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB321E, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel AT45DB642D, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for ESMT F25L008A, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B05, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B05T, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B10T, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B20T, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B40T, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B80T, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B16T, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B32T, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25B64T, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F05, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25F64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25Q40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25Q80(A), 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25Q16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25Q32(A/B), 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25Q64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25Q128, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25QH16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25QH32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25QH64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25QH128, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon EN25S64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25LQ32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q512, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q20(B), 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q40(B), 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q80(B), 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q16(B), 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q32(B), 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q64(B), 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25Q128B, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for GigaDevice GD25T80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Intel 25F160S33B8, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Intel 25F160S33T8, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Intel 25F320S33B8, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Intel 25F320S33T8, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Intel 25F640S33B8, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Intel 25F640S33T8, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L512(E)/MX25V512(C), 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L1005(C)/MX25L1006E, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L2005(C), 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L4005(A/C), 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L8005/MX25V8005, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L1605, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L1605A/MX25L1606E, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L1605D/MX25L1608D, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L1635D, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L1635E, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L3205(A), 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L3205D/MX25L3208D, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L3206E, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L3235D, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L6405(D), 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L6406E/MX25L6436E, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L6445E, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25L12805(D), 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25U1635E, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25U3235E/F, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix MX25U6435E/F, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P05-A, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P05, 64 kB: probe_spi_res1: id 0xff
+Probing for Micron/Numonyx/ST M25P10-A, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P10, 128 kB: probe_spi_res1: id 0xff
+Probing for Micron/Numonyx/ST M25P20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P20-old, 256 kB: probe_spi_res1: id 0xff
+Probing for Micron/Numonyx/ST M25P40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P40-old, 512 kB: probe_spi_res1: id 0xff
+Probing for Micron/Numonyx/ST M25P80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25P128, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PE10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PE20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PE40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PE80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PE16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PX80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PX16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PX32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M25PX64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M45PE10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M45PE20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M45PE40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M45PE80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST M45PE16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q016, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q032..1E, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q032..3E, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q064..1E, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q064..3E, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q128..1E, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Micron/Numonyx/ST N25Q128..3E, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Nantronics N25S10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Nantronics N25S20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Nantronics N25S40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Nantronics N25S80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Nantronics N25S16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LD256C, 32 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LD512(C), 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LD010(C), 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LD020(C), 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LD040(C), 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LV512(A), 64 kB: probe_spi_res3: id1 0xffff, id2 0xff
+Probing for PMC Pm25LV010, 128 kB: probe_spi_res3: id1 0xffff, id2 0xff
+Probing for PMC Pm25LV010A, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LV020, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LV040, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LV080B, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC Pm25LV016B, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Sanyo LE25FW203A, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Sanyo LE25FW403A, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Sanyo LE25FW418A, 512 kB: probe_spi_res2: id1 0xff, id2 0xff
+Probing for Sanyo LE25FW806, 1024 kB: probe_spi_res2: id1 0xff, id2 0xff
+Probing for Sanyo LE25FW808, 1024 kB: probe_spi_res2: id1 0xff, id2 0xff
+Probing for Spansion S25FL004A, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL008A, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL016A, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL032A/P, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL064A/P, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL204K, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL208K, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL116K/S25FL216K, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Spansion S25FL128S......0, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25LF040A, 512 kB: probe_spi_res2: id1 0xff, id2 0xff
+Probing for SST SST25LF080(A), 1024 kB: probe_spi_res2: id1 0xff, id2 0xff
+Probing for SST SST25VF512A, 64 kB: probe_spi_rems: id1 0xff, id2 0xff
+Probing for SST SST25VF010, 128 kB: probe_spi_rems: id1 0xff, id2 0xff
+Probing for SST SST25VF020, 256 kB: probe_spi_rems: id1 0xff, id2 0xff
+Probing for SST SST25VF020B, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25VF040, 512 kB: probe_spi_rems: id1 0xff, id2 0xff
+Probing for SST SST25VF040B, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25VF040B.REMS, 512 kB: probe_spi_rems: id1 0xff, id2 0xff
+Probing for SST SST25VF080B, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25VF016B, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25VF032B, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25VF064C, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25WF512, 64 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25WF010, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25WF020, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST SST25WF040, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q80.V, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q16.V, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q32.V, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q64.V, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q128.V, 16384 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q20.W, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q40.W, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q80.W, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q16.W, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q32.W, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25Q64.W, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X10, 128 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X20, 256 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X40, 512 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X80, 1024 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X16, 2048 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X32, 4096 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond W25X64, 8192 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Unknown SFDP-capable chip, 0 kB: No SFDP signature found.
+Probing for AMIC unknown AMIC SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Atmel unknown Atmel SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Eon unknown Eon SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Macronix unknown Macronix SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for PMC unknown PMC SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for SST unknown SST SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for ST unknown ST SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Sanyo unknown Sanyo SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Winbond unknown Winbond (ex Nexcom) SPI chip, 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Generic unknown SPI chip (RDID), 0 kB: RDID byte 0 parity violation. probe_spi_rdid_generic: id1 0xff, id2 0xffff
+Probing for Generic unknown SPI chip (REMS), 0 kB: probe_spi_rems: id1 0xff, id2 0xff
+Probing for Atmel AT49LH002, 256 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AB, 512 kB: probe_82802ab: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Intel 82802AC, 1024 kB: probe_82802ab: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL002, 256 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for PMC Pm49FL004, 512 kB: probe_jedec_common: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Sharp LHF00L04, 1024 kB: probe_82802ab: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF002A/B, 256 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF003A/B, 384 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004A/B, 512 kB: probe_jedec_common: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF004C, 512 kB: probe_82802ab: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008A, 1024 kB: probe_jedec_common: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF008C, 1024 kB: probe_82802ab: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for SST SST49LF016C, 2048 kB: probe_82802ab: id1 0x02, id2 0x0e, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040A, 512 kB: probe_82802ab: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW040B, 512 kB: probe_82802ab: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080A, 1024 kB: probe_82802ab: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FLW080B, 1024 kB: probe_82802ab: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW002, 256 kB: probe_82802ab: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW016, 2048 kB: probe_82802ab: id1 0x02, id2 0x0e, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW040, 512 kB: probe_82802ab: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for ST M50FW080, 1024 kB: probe_82802ab: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FA, 512 kB: probe_jedec_common: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FB, 512 kB: probe_jedec_common: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V040FC, 512 kB: probe_jedec_common: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W49V002FA, 256 kB: probe_jedec_common: id1 0xff, id2 0xff, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA, 1024 kB: probe_jedec_common: id1 0xe1, id2 0x44, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+Probing for Winbond W39V080FA (dual mode), 512 kB: probe_jedec_common: id1 0x4e, id2 0x41, id1 parity violation, id1 is normal flash content, id2 is normal flash content
+No EEPROM/flash device found.
+Note: flashrom can never write if the flash chip isn't found automatically.
+Restoring MMIO space at 0x7fc24d5108a0
+Restoring MMIO space at 0x7fc24d51089c
+Restoring MMIO space at 0x7fc24d510898
+Restoring MMIO space at 0x7fc24d510896
+Restoring MMIO space at 0x7fc24d510894
+Restoring PCI config space for 00:1f:0 reg 0xdc
