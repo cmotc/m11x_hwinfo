@@ -1,0 +1,47 @@
+Intel CPU: Family 6, Model 7
+Intel Northbridge: 8086:2a40 (unknown)
+Intel Southbridge: 8086:2919 (unknown)
+
+============= GPIOS =============
+
+Error: Dumping GPIOs on this southbridge is not (yet) supported.
+
+
+
+============= RCBA ==============
+
+Error: Dumping RCBA on this southbridge is not (yet) supported.
+
+
+
+============= PMBASE ============
+
+Error: Dumping PMBASE on this southbridge is not (yet) supported.
+
+
+
+============= MCHBAR ============
+
+Error: Dumping MCHBAR on this northbridge is not (yet) supported.
+
+
+
+============= EPBAR =============
+
+Error: Dumping EPBAR on this northbridge is not (yet) supported.
+
+
+
+============= DMIBAR ============
+
+Error: Dumping DMIBAR on this northbridge is not (yet) supported.
+
+
+========= PCIEXBAR ========
+
+Error: Dumping PCIEXBAR on this northbridge is not (yet) supported.
+
+
+Error: Dumping MSRs on this CPU (0x000670) is not (yet) supported.
+
+
